@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/app_bar_details_share"
+        android:icon="@drawable/ic_baseline_open_in_new_24"
+        android:title="分享"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/app_bar_details_background"
+        android:title="设置背景" />
+
+    <item
+        android:id="@+id/app_bar_details_delete"
+        android:title="删除" />
+
+</menu>

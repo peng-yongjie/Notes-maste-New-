@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="我的">
+        <menu>
+            <item
+                android:id="@+id/nav_user"
+                android:title="我的账户" />
+            <item
+                android:id="@+id/nav_good"
+                android:title="我的点赞" />
+            <item
+                android:id="@+id/nav_start"
+                android:title="我的收藏" />
+            <item
+                android:id="@+id/nav_msg"
+                android:title="我的评论" />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="退出登录" />
+
+
+        </menu>
+    </item>
+
+
+    <item android:title="新闻源">
+        <menu>
+            <item
+                android:id="@+id/nav_news_0"
+                android:title="全部新闻" />
+            <item
+                android:id="@+id/nav_news_1"
+                android:title="新浪微博" />
+            <item
+                android:id="@+id/nav_news_2"
+                android:title="腾讯新闻" />
+            <item
+                android:id="@+id/nav_news_3"
+                android:title="网易新闻" />
+            <item
+                android:id="@+id/nav_news_4"
+                android:title="百度新闻" />
+
+        </menu>
+    </item>
+
+
+    <item android:title="更多">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:title="设置" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="关于" />
+            <item
+                android:id="@+id/nav_more"
+                android:title="add" />
+
+        </menu>
+    </item>
+
+
+</menu>

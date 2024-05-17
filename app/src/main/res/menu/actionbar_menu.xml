@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/app_bar_lock"
+        android:title="设置密码"
+        android:icon="@drawable/ic_baseline_lock_24"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/app_bar_top"
+        android:title="顶部"
+        android:icon="@drawable/ic_vertical_align_top_black_24dp"
+        />
+
+    <item
+        android:id="@+id/app_bar_listStyle"
+        android:title="列表显示样式"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        />
+
+</menu>
